@@ -1,0 +1,11 @@
+<ul class="nav nav-tabs">
+	<li class="active"><a href="/statistics/">All Distributions</a></li>
+	<li><a href="/statistics/centos">CentOS</a></li>
+  	<li><a href="/statistics/debian">Debian</a></li>
+	<li><a href="/statistics/fedora">Fedora</a></li>
+	<li><a href="/statistics/opensuse">Mandriva</a></li>
+	<li><a href="/statistics/opensuse">Mageia</a></li>
+	<li><a href="/statistics/opensuse">Mint</a></li>
+	<li><a href="/statistics/opensuse">Open Suse</a></li>
+  	<li><a href="/statistics/ubuntu">Ubuntu</a></li>
+</ul>

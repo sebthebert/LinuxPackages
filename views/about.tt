@@ -1,0 +1,21 @@
+<h1>About</h1>
+
+LinuxPackages.info is a WebSite to get information about packages for any Linux distributions.<br>
+
+Available distributions:
+<% FOREACH d IN distributions %>
+<li><% d %></li>
+<% END %>
+
+<h1>Follow us</h1>
+To get the latest news about LinuxPackages, you can follow us on <b>Facebook</b>, <b>Google+</b> and <b>Twitter</b>.<br>
+
+<div class="g-plus" data-href="//plus.google.com/105071648077756987831?rel=publisher"></div>
+<!-- Place this tag after the last badge tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>

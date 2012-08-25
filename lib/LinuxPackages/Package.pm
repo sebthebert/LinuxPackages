@@ -14,7 +14,7 @@ my $pkg = undef;
 
 =head1 FUNCTIONS
 
-=head2 Search($distrib, $release, $arch, $pattern)
+=head2 Search($distribs, $releases, $arch, $pattern)
 
 =cut
 
@@ -29,7 +29,7 @@ sub Search
             my @pkg_files = glob("$DIR_DATA/$d/$r/Packages_*-${arch}.gz");
             foreach my $file_pkg (@pkg_files)
             {
-            	printf "File: %s\n", $file_pkg;
+            	#printf "File: %s\n", $file_pkg;
                 if (defined open my $DATA, '-|', "zcat $file_pkg")
                 {
                     while (<$DATA>)
@@ -72,3 +72,9 @@ sub Search
 }
 
 1;
+
+=head1 AUTHOR
+
+Sebastien Thebert <linuxpackages@ittool.org>
+
+=cut
